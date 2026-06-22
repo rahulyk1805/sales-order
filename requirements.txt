@@ -1,0 +1,16 @@
+# ─────────────────────────────────────────────────────────────────
+# Pending Orders Processor — Python Dependencies
+# ─────────────────────────────────────────────────────────────────
+# Install all with:  pip install -r requirements.txt
+
+# Web UI framework
+streamlit>=1.35
+
+# Data loading, transformation and date parsing
+pandas>=2.0
+
+# Excel workbook creation with full formatting (fills, fonts, borders, merges)
+openpyxl>=3.1
+
+# Reading legacy .xls files exported from Tally (old Excel 97-2003 format)
+xlrd>=2.0
